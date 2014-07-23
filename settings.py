@@ -1,0 +1,12 @@
+HOST="199.9.253.199" #Twitch IP address
+PORT=6667 #Port number
+PASS="" ##http://twitchapps.com/tmi/,
+IDENT="" ##Username of bot
+CHANNEL="" #Channel that you would like to join
+PREPEND="PRIVMSG " + CHANNEL + " :" #Used for simplifying response
+POSTPEND="\r\n" #Used for simplifying response
+SOCKETNUM=1023 #Socket number for connecting to twitch
+DBLOCATION="localhost" #Location of the sql database. Localhost if it is on the same machine
+DBUSER="root" #Username for the database. root if it is on the same machine 
+DBPASS="" #Password for accessing the database
+DBNAME="" #name of your database
