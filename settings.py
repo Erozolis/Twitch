@@ -7,6 +7,6 @@ PREPEND="PRIVMSG " + CHANNEL + " :" #Used for simplifying response
 POSTPEND="\r\n" #Used for simplifying response
 SOCKETNUM=1023 #Socket number for connecting to twitch
 DBLOCATION="localhost" #Location of the sql database. Localhost if it is on the same machine
-DBUSER="root" #Username for the database. root if it is on the same machine 
+DBUSER="root" #Username for the database. root if you have not defined one or have not set permissions.
 DBPASS="" #Password for accessing the database
 DBNAME="" #name of your database
